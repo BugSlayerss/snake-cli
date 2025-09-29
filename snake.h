@@ -1,173 +1,245 @@
+#ifndef SNAKE_H
+#define SNAKE_H
+
 #include <iostream>
 #include <vector>
 #include <chrono>
 #include <thread>
-#include <stdlib.h>
+#include <cstdlib>
 #include <termios.h>
-#include <unistd.h> // for system clear
+#include <unistd.h>
 #include <map>
 #include <deque>
 #include <algorithm>
-#include <fstream> // New header for file handling
+#include <fstream>
+#include <atomic>
+#include <mutex>
+#include <random>
 
 using namespace std;
-using std::chrono::system_clock;
+using namespace std::chrono;
 using namespace std::this_thread;
-char direction='r';
-int score = 0; 
-pair<int, int> poisonous_food;
-bool is_paused = false;
 
-// New function to update and display high scores
-void update_high_scores() {
-    vector<int> high_scores;
-    ifstream infile("high_scores.txt");
-    int s;
-    while (infile >> s) {
-        high_scores.push_back(s);
-    }
-    infile.close();
+class SnakeGame {
+public:
+    const int grid_size;
+    atomic<char> direction;
+    atomic<bool> is_paused;
+    atomic<int> score;
+    pair<int,int> food;
+    pair<int,int> poisonous_food;
+    deque<pair<int,int>> snake;
+    chrono::milliseconds sleep_duration;
+    mutex io_mutex; // protect file IO / render where needed
 
-    high_scores.push_back(score);
-    sort(high_scores.rbegin(), high_scores.rend());
-
-    ofstream outfile("high_scores.txt");
-    for (size_t i = 0; i < high_scores.size() && i < 10; ++i) {
-        outfile << high_scores[i] << endl;
-    }
-    outfile.close();
-
-    cout << "--- Top 10 High Scores ---" << endl;
-    for (int current_score : high_scores) {
-        cout << current_score << endl;
-    }
-}
-
-
-void input_handler(){
-    // change terminal settings
-    struct termios oldt, newt;
-    tcgetattr(STDIN_FILENO, &oldt);
-    newt = oldt;
-    // turn off canonical mode and echo
-    newt.c_lflag &= ~(ICANON | ECHO);
-    tcsetattr(STDIN_FILENO, TCSANOW, &newt);
-    map<char, char> keymap = {{'d', 'r'}, {'a', 'l'}, {'w', 'u'}, {'s', 'd'}, {'q', 'q'}, {'p', 'p'}};
-    while (true) {
-        char input = getchar();
-        if (keymap.find(input) != keymap.end()) {
-            if (input == 'p') {
-                is_paused = !is_paused;
-            } else {
-                direction = keymap[input];
-            }
-        }else if (input == 'q'){
-            exit(0);
-        }
-    }
-    tcsetattr(STDIN_FILENO, TCSANOW, &oldt);
-}
-
-
-void render_game(int size, deque<pair<int, int>> &snake, pair<int, int> food){
-    for(size_t i=0;i<size;i++){
-        for(size_t j=0;j<size;j++){
-            if (i == food.first && j == food.second){
-                cout << "🍎";
-            } else if (i == poisonous_food.first && j == poisonous_food.second) {
-                cout << "💀";
-            } else if (find(snake.begin(), snake.end(), make_pair(int(i), int(j))) != snake.end()) {
-                cout << "🐍";
-            } else {
-                cout << "⬜";
-            }
-    }
-    cout << endl;
-}
-}
-
-pair<int,int> get_next_head(pair<int,int> current, char direction){
-    pair<int, int> next; 
-    if(direction =='r'){
-        next = make_pair(current.first,(current.second+1) % 10);
-    }else if (direction=='l')
+    SnakeGame(int size = 10)
+        : grid_size(size), direction('r'), is_paused(false), score(0),
+          food({-1,-1}), poisonous_food({-1,-1}), sleep_duration(500)
     {
-        next = make_pair(current.first, current.second==0?9:current.second-1);
-    }else if(direction =='d'){
-            next = make_pair((current.first+1)%10,current.second);
-        }else if (direction=='u'){
-            next = make_pair(current.first==0?9:current.first-1, current.second);
-        }
-    return next;
-    
-}
-
-
-
-void game_play(){
-    system("clear");
-    deque<pair<int, int>> snake;
-    snake.push_back(make_pair(0,0));
-
-    // The logic to spawn the food in a free spot
-    pair<int, int> food;
-    do {
-        food = make_pair(rand() % 10, rand() % 10);
-    } while (find(snake.begin(), snake.end(), food) != snake.end());
-
-    // Initial sleep duration (500ms)
-    chrono::milliseconds sleep_duration(500); 
-
-    // Spawn poisonous food in a free spot, not on the snake or the normal food
-    do {
-        poisonous_food = make_pair(rand() % 10, rand() % 10);
-    } while (find(snake.begin(), snake.end(), poisonous_food) != snake.end() || (poisonous_food.first == food.first && poisonous_food.second == food.second));
-
-
-    for(pair<int, int> head=make_pair(0,1);; head = get_next_head(head, direction)){
-        // send the cursor to the top
-        cout << "\033[H";
-        if (is_paused) {
-            cout << "Game is Paused! Press 'p' to resume." << endl;
-            sleep_for(100ms); // Small delay to prevent busy-waiting
-            continue;
-        }
-        // check self collision
-        if (find(snake.begin(), snake.end(), head) != snake.end()) {
-            system("clear");
-            cout << "Game Over" << endl;
-            update_high_scores();
-            exit(0);
-        } else if (head.first == poisonous_food.first && head.second == poisonous_food.second) {
-            // New check for poisonous food
-            system("clear");
-            cout << "Game Over - You ate poisonous food!" << endl;
-            update_high_scores();
-            exit(0);
-        } else if (head.first == food.first && head.second == food.second) {
-            // grow snake
-            // Regenerate food in a new, free spot
-            do {
-                food = make_pair(rand() % 10, rand() % 10);
-            } while (find(snake.begin(), snake.end(), food) != snake.end() || (food.first == poisonous_food.first && food.second == poisonous_food.second));
-
-            snake.push_back(head);
-            score += 10; // Increase score when food is eaten
-            // Decrease the sleep duration by 10ms for every food eaten
-            // Ensure the sleep duration doesn't drop below 50ms
-            if (sleep_duration.count() > 50) {
-                sleep_duration = chrono::milliseconds(sleep_duration.count() - 10);
-            }
-        } else {
-            // move snake
-            snake.push_back(head);
-            snake.pop_front();
-        }
-        render_game(10, snake, food);
-        cout << "length of snake: " << snake.size() << endl;
-        cout << "Score: " << score << endl; // Display the current score
-    
-        // Use the dynamic sleep duration
-        sleep_for(sleep_duration);
+        snake.push_back(make_pair(0,0));
+        rng.seed(random_device{}());
+        spawn_food();
+        spawn_poison();
     }
+
+    // deterministic helper (also kept as free function wrapper below)
+    static pair<int,int> getNextHead(pair<int,int> current, char dir, int grid = 10) {
+        pair<int,int> next;
+        if (dir == 'r') {
+            next = make_pair(current.first, (current.second + 1) % grid);
+        } else if (dir == 'l') {
+            next = make_pair(current.first, current.second == 0 ? grid-1 : current.second - 1);
+        } else if (dir == 'd') {
+            next = make_pair((current.first + 1) % grid, current.second);
+        } else { // 'u'
+            next = make_pair(current.first == 0 ? grid-1 : current.first - 1, current.second);
+        }
+        return next;
+    }
+
+    void render_game() {
+        // move cursor to top-left to redraw in-place
+        cout << "\033[H";
+        for (int i = 0; i < grid_size; ++i) {
+            for (int j = 0; j < grid_size; ++j) {
+                if (i == food.first && j == food.second) {
+                    cout << "🍎";
+                } else if (i == poisonous_food.first && j == poisonous_food.second) {
+                    cout << "💀";
+                } else if (find(snake.begin(), snake.end(), make_pair(i,j)) != snake.end()) {
+                    cout << "🐍";
+                } else {
+                    cout << "⬜";
+                }
+            }
+            cout << endl;
+        }
+    }
+
+    void spawn_food() {
+        uniform_int_distribution<int> dist(0, grid_size - 1);
+        pair<int,int> pos;
+        do {
+            pos = make_pair(dist(rng), dist(rng));
+        } while (find(snake.begin(), snake.end(), pos) != snake.end()
+                 || pos == poisonous_food);
+        food = pos;
+    }
+
+    void spawn_poison() {
+        uniform_int_distribution<int> dist(0, grid_size - 1);
+        pair<int,int> pos;
+        do {
+            pos = make_pair(dist(rng), dist(rng));
+        } while (find(snake.begin(), snake.end(), pos) != snake.end()
+                 || pos == food);
+        poisonous_food = pos;
+    }
+
+    void update_high_scores() {
+        lock_guard<mutex> lock(io_mutex);
+        vector<int> high_scores;
+        ifstream infile("high_scores.txt");
+        int s;
+        while (infile >> s) {
+            high_scores.push_back(s);
+        }
+        infile.close();
+
+        high_scores.push_back(score.load());
+        sort(high_scores.rbegin(), high_scores.rend());
+
+        ofstream outfile("high_scores.txt");
+        for (size_t i = 0; i < high_scores.size() && i < 10; ++i) {
+            outfile << high_scores[i] << endl;
+        }
+        outfile.close();
+
+        cout << "--- Top 10 High Scores ---" << endl;
+        for (size_t i = 0; i < high_scores.size() && i < 10; ++i) {
+            cout << high_scores[i] << endl;
+        }
+    }
+
+    void input_handler() {
+        // change terminal settings to read single chars without enter
+        struct termios oldt, newt;
+        tcgetattr(STDIN_FILENO, &oldt);
+        newt = oldt;
+        newt.c_lflag &= ~(ICANON | ECHO);
+        tcsetattr(STDIN_FILENO, TCSANOW, &newt);
+
+        map<char, char> keymap = {{'d', 'r'}, {'a', 'l'}, {'w', 'u'}, {'s', 'd'}, {'q', 'q'}, {'p', 'p'}};
+        while (true) {
+            char input = getchar();
+            if (keymap.find(input) != keymap.end()) {
+                if (input == 'p') {
+                    is_paused = !is_paused.load();
+                } else if (input == 'q') {
+                    // restore terminal and exit
+                    tcsetattr(STDIN_FILENO, TCSANOW, &oldt);
+                    exit(0);
+                } else {
+                    // prevent reversing directly: if current direction is opposite, ignore
+                    char cur = direction.load();
+                    char requested = keymap[input];
+                    if (!is_opposite(cur, requested)) {
+                        direction = requested;
+                    }
+                }
+            }
+        }
+
+        // never reached but keep for correctness
+        tcsetattr(STDIN_FILENO, TCSANOW, &oldt);
+    }
+
+    void game_play() {
+        system("clear");
+        // ensure initial food/poison exist
+        if (food.first == -1) spawn_food();
+        if (poisonous_food.first == -1) spawn_poison();
+
+        const chrono::milliseconds min_sleep(50);
+
+        while (true) {
+            // send cursor to home for redrawing
+            cout << "\033[H";
+            if (is_paused.load()) {
+                cout << "Game is Paused! Press 'p' to resume." << endl;
+                sleep_for(100ms);
+                continue;
+            }
+
+            pair<int,int> head = getNextHead(snake.back(), direction.load(), grid_size);
+
+            // check self collision
+            if (find(snake.begin(), snake.end(), head) != snake.end()) {
+                system("clear");
+                cout << "Game Over" << endl;
+                update_high_scores();
+                exit(0);
+            } else if (head.first == poisonous_food.first && head.second == poisonous_food.second) {
+                system("clear");
+                cout << "Game Over - You ate poisonous food!" << endl;
+                update_high_scores();
+                exit(0);
+            } else if (head.first == food.first && head.second == food.second) {
+                // eaten food: grow snake
+                snake.push_back(head);
+                // regenerate food ensuring it's not on snake or poison
+                spawn_food();
+                score += 10;
+                if (sleep_duration.count() - 10 >= min_sleep.count()) {
+                    sleep_duration = chrono::milliseconds(sleep_duration.count() - 10);
+                }
+            } else {
+                // normal move
+                snake.push_back(head);
+                snake.pop_front();
+            }
+
+            render_game();
+            cout << "length of snake: " << snake.size() << endl;
+            cout << "Score: " << score.load() << endl;
+
+            sleep_for(sleep_duration);
+        }
+    }
+
+    static bool is_opposite(char a, char b) {
+        // pairs: r-l, u-d
+        if ((a == 'r' && b == 'l') || (a == 'l' && b == 'r')) return true;
+        if ((a == 'u' && b == 'd') || (a == 'd' && b == 'u')) return true;
+        return false;
+    }
+
+private:
+    mt19937 rng;
+};
+
+//////////////////////////////////////////////////////////////////
+// Backwards-compatible free functions (tests and original main.cpp)
+//////////////////////////////////////////////////////////////////
+
+static SnakeGame GLOBAL_GAME;
+
+pair<int,int> get_next_head(pair<int,int> current, char dir) {
+    return SnakeGame::getNextHead(current, dir, GLOBAL_GAME.grid_size);
 }
+
+void render_game(int size, deque<pair<int,int>> &snake, pair<int,int> food) {
+    // For compatibility only: delegate to GLOBAL_GAME.render_game()
+    // Note: this wrapper ignores passed parameters and uses the global game state.
+    GLOBAL_GAME.render_game();
+}
+
+void input_handler() {
+    GLOBAL_GAME.input_handler();
+}
+
+void game_play() {
+    GLOBAL_GAME.game_play();
+}
+
+#endif // SNAKE_H
