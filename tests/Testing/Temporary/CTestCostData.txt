@@ -1,0 +1,8 @@
+GetNextHead.RightWrap 1 0.017865
+GetNextHead.LeftWrap 1 0.0159008
+GetNextHead.UpWrap 1 0.0140526
+GetNextHead.DownWrap 1 0.0177052
+SpawnFood.NotOnSnakeOrPoison 1 0.0174218
+SpawnPoison.NotOnSnakeOrFood 1 0.0160248
+UpdateHighScores.WritesTop10WithCurrentScore 1 0.0404561
+---

@@ -1,3 +1,18 @@
+# build artifacts / IDE files
+/build_tests/
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+*.exe
+*.o
+*.obj
+*.pdb
+*.lib
+*.dll
+*.sln
+*.vcxproj*
+.vscode/
+
 # Prerequisites
 *.d
 
