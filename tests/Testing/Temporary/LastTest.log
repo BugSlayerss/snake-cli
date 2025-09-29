@@ -1,0 +1,199 @@
+Start testing: Sep 29 22:24 India Standard Time
+----------------------------------------------------------
+1/7 Testing: GetNextHead.RightWrap
+1/7 Test: GetNextHead.RightWrap
+Command: "F:/snake-cli/tests/Debug/snake_tests.exe" "--gtest_filter=GetNextHead.RightWrap" "--gtest_also_run_disabled_tests"
+Directory: F:/snake-cli/tests
+"GetNextHead.RightWrap" start time: Sep 29 22:24 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from F:\snake-cli\tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GetNextHead.RightWrap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GetNextHead
+[ RUN      ] GetNextHead.RightWrap
+[       OK ] GetNextHead.RightWrap (0 ms)
+[----------] 1 test from GetNextHead (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GetNextHead.RightWrap" end time: Sep 29 22:24 India Standard Time
+"GetNextHead.RightWrap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: GetNextHead.LeftWrap
+2/7 Test: GetNextHead.LeftWrap
+Command: "F:/snake-cli/tests/Debug/snake_tests.exe" "--gtest_filter=GetNextHead.LeftWrap" "--gtest_also_run_disabled_tests"
+Directory: F:/snake-cli/tests
+"GetNextHead.LeftWrap" start time: Sep 29 22:24 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from F:\snake-cli\tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GetNextHead.LeftWrap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GetNextHead
+[ RUN      ] GetNextHead.LeftWrap
+[       OK ] GetNextHead.LeftWrap (0 ms)
+[----------] 1 test from GetNextHead (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GetNextHead.LeftWrap" end time: Sep 29 22:24 India Standard Time
+"GetNextHead.LeftWrap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: GetNextHead.UpWrap
+3/7 Test: GetNextHead.UpWrap
+Command: "F:/snake-cli/tests/Debug/snake_tests.exe" "--gtest_filter=GetNextHead.UpWrap" "--gtest_also_run_disabled_tests"
+Directory: F:/snake-cli/tests
+"GetNextHead.UpWrap" start time: Sep 29 22:24 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from F:\snake-cli\tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GetNextHead.UpWrap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GetNextHead
+[ RUN      ] GetNextHead.UpWrap
+[       OK ] GetNextHead.UpWrap (0 ms)
+[----------] 1 test from GetNextHead (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GetNextHead.UpWrap" end time: Sep 29 22:24 India Standard Time
+"GetNextHead.UpWrap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: GetNextHead.DownWrap
+4/7 Test: GetNextHead.DownWrap
+Command: "F:/snake-cli/tests/Debug/snake_tests.exe" "--gtest_filter=GetNextHead.DownWrap" "--gtest_also_run_disabled_tests"
+Directory: F:/snake-cli/tests
+"GetNextHead.DownWrap" start time: Sep 29 22:24 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from F:\snake-cli\tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GetNextHead.DownWrap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GetNextHead
+[ RUN      ] GetNextHead.DownWrap
+[       OK ] GetNextHead.DownWrap (0 ms)
+[----------] 1 test from GetNextHead (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GetNextHead.DownWrap" end time: Sep 29 22:24 India Standard Time
+"GetNextHead.DownWrap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: SpawnFood.NotOnSnakeOrPoison
+5/7 Test: SpawnFood.NotOnSnakeOrPoison
+Command: "F:/snake-cli/tests/Debug/snake_tests.exe" "--gtest_filter=SpawnFood.NotOnSnakeOrPoison" "--gtest_also_run_disabled_tests"
+Directory: F:/snake-cli/tests
+"SpawnFood.NotOnSnakeOrPoison" start time: Sep 29 22:24 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from F:\snake-cli\tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SpawnFood.NotOnSnakeOrPoison
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpawnFood
+[ RUN      ] SpawnFood.NotOnSnakeOrPoison
+[       OK ] SpawnFood.NotOnSnakeOrPoison (0 ms)
+[----------] 1 test from SpawnFood (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SpawnFood.NotOnSnakeOrPoison" end time: Sep 29 22:24 India Standard Time
+"SpawnFood.NotOnSnakeOrPoison" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: SpawnPoison.NotOnSnakeOrFood
+6/7 Test: SpawnPoison.NotOnSnakeOrFood
+Command: "F:/snake-cli/tests/Debug/snake_tests.exe" "--gtest_filter=SpawnPoison.NotOnSnakeOrFood" "--gtest_also_run_disabled_tests"
+Directory: F:/snake-cli/tests
+"SpawnPoison.NotOnSnakeOrFood" start time: Sep 29 22:24 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from F:\snake-cli\tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SpawnPoison.NotOnSnakeOrFood
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SpawnPoison
+[ RUN      ] SpawnPoison.NotOnSnakeOrFood
+[       OK ] SpawnPoison.NotOnSnakeOrFood (0 ms)
+[----------] 1 test from SpawnPoison (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SpawnPoison.NotOnSnakeOrFood" end time: Sep 29 22:24 India Standard Time
+"SpawnPoison.NotOnSnakeOrFood" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: UpdateHighScores.WritesTop10WithCurrentScore
+7/7 Test: UpdateHighScores.WritesTop10WithCurrentScore
+Command: "F:/snake-cli/tests/Debug/snake_tests.exe" "--gtest_filter=UpdateHighScores.WritesTop10WithCurrentScore" "--gtest_also_run_disabled_tests"
+Directory: F:/snake-cli/tests
+"UpdateHighScores.WritesTop10WithCurrentScore" start time: Sep 29 22:24 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from F:\snake-cli\tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = UpdateHighScores.WritesTop10WithCurrentScore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UpdateHighScores
+[ RUN      ] UpdateHighScores.WritesTop10WithCurrentScore
+--- Top 10 High Scores ---
+999
+50
+40
+30
+20
+10
+[       OK ] UpdateHighScores.WritesTop10WithCurrentScore (25 ms)
+[----------] 1 test from UpdateHighScores (25 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (25 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"UpdateHighScores.WritesTop10WithCurrentScore" end time: Sep 29 22:24 India Standard Time
+"UpdateHighScores.WritesTop10WithCurrentScore" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 29 22:24 India Standard Time

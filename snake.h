@@ -6,8 +6,12 @@
 #include <chrono>
 #include <thread>
 #include <cstdlib>
-#include <termios.h>
-#include <unistd.h>
+#if defined(_WIN32) || defined(_WIN64)
+    #include <conio.h>   // Windows: use _getch()
+#else
+    #include <termios.h> // Linux/Mac
+    #include <unistd.h>
+#endif
 #include <map>
 #include <deque>
 #include <algorithm>
@@ -122,25 +126,17 @@ public:
     }
 
     void input_handler() {
-        // change terminal settings to read single chars without enter
-        struct termios oldt, newt;
-        tcgetattr(STDIN_FILENO, &oldt);
-        newt = oldt;
-        newt.c_lflag &= ~(ICANON | ECHO);
-        tcsetattr(STDIN_FILENO, TCSANOW, &newt);
-
-        map<char, char> keymap = {{'d', 'r'}, {'a', 'l'}, {'w', 'u'}, {'s', 'd'}, {'q', 'q'}, {'p', 'p'}};
-        while (true) {
-            char input = getchar();
+#if defined(_WIN32) || defined(_WIN64)
+    map<char, char> keymap = {{'d', 'r'}, {'a', 'l'}, {'w', 'u'}, {'s', 'd'}, {'q', 'q'}, {'p', 'p'}};
+    while (true) {
+        if (_kbhit()) {
+            char input = _getch();
             if (keymap.find(input) != keymap.end()) {
                 if (input == 'p') {
                     is_paused = !is_paused.load();
                 } else if (input == 'q') {
-                    // restore terminal and exit
-                    tcsetattr(STDIN_FILENO, TCSANOW, &oldt);
                     exit(0);
                 } else {
-                    // prevent reversing directly: if current direction is opposite, ignore
                     char cur = direction.load();
                     char requested = keymap[input];
                     if (!is_opposite(cur, requested)) {
@@ -149,10 +145,39 @@ public:
                 }
             }
         }
-
-        // never reached but keep for correctness
-        tcsetattr(STDIN_FILENO, TCSANOW, &oldt);
+        this_thread::sleep_for(50ms); // avoid busy loop
     }
+#else
+    // Linux/Mac version (your original code)
+    struct termios oldt, newt;
+    tcgetattr(STDIN_FILENO, &oldt);
+    newt = oldt;
+    newt.c_lflag &= ~(ICANON | ECHO);
+    tcsetattr(STDIN_FILENO, TCSANOW, &newt);
+
+    map<char, char> keymap = {{'d', 'r'}, {'a', 'l'}, {'w', 'u'}, {'s', 'd'}, {'q', 'q'}, {'p', 'p'}};
+    while (true) {
+        char input = getchar();
+        if (keymap.find(input) != keymap.end()) {
+            if (input == 'p') {
+                is_paused = !is_paused.load();
+            } else if (input == 'q') {
+                tcsetattr(STDIN_FILENO, TCSANOW, &oldt);
+                exit(0);
+            } else {
+                char cur = direction.load();
+                char requested = keymap[input];
+                if (!is_opposite(cur, requested)) {
+                    direction = requested;
+                }
+            }
+        }
+    }
+
+    tcsetattr(STDIN_FILENO, TCSANOW, &oldt);
+#endif
+}
+
 
     void game_play() {
         system("clear");

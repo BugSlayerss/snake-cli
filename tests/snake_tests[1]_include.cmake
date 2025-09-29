@@ -1,0 +1,5 @@
+if(EXISTS "F:/snake-cli/tests/snake_tests[1]_tests.cmake")
+  include("F:/snake-cli/tests/snake_tests[1]_tests.cmake")
+else()
+  add_test(snake_tests_NOT_BUILT snake_tests_NOT_BUILT)
+endif()

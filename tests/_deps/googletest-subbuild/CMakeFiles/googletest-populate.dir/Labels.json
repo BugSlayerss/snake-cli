@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "F:/snake-cli/tests/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "F:/snake-cli/tests/_deps/googletest-subbuild/CMakeFiles/f960399df1ea9ace24bc7259d708809c/googletest-populate.rule"
+		},
+		{
+			"file" : "F:/snake-cli/tests/_deps/googletest-subbuild/CMakeFiles/cee49cb725d11f2de64c9a60eaf8ea92/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "F:/snake-cli/tests/_deps/googletest-subbuild/CMakeFiles/4e4f518abfd3c856c0107c617d81ec2e/googletest-populate-build.rule"
+		},
+		{
+			"file" : "F:/snake-cli/tests/_deps/googletest-subbuild/CMakeFiles/4e4f518abfd3c856c0107c617d81ec2e/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "F:/snake-cli/tests/_deps/googletest-subbuild/CMakeFiles/4e4f518abfd3c856c0107c617d81ec2e/googletest-populate-download.rule"
+		},
+		{
+			"file" : "F:/snake-cli/tests/_deps/googletest-subbuild/CMakeFiles/4e4f518abfd3c856c0107c617d81ec2e/googletest-populate-install.rule"
+		},
+		{
+			"file" : "F:/snake-cli/tests/_deps/googletest-subbuild/CMakeFiles/4e4f518abfd3c856c0107c617d81ec2e/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "F:/snake-cli/tests/_deps/googletest-subbuild/CMakeFiles/4e4f518abfd3c856c0107c617d81ec2e/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "F:/snake-cli/tests/_deps/googletest-subbuild/CMakeFiles/4e4f518abfd3c856c0107c617d81ec2e/googletest-populate-test.rule"
+		},
+		{
+			"file" : "F:/snake-cli/tests/_deps/googletest-subbuild/CMakeFiles/4e4f518abfd3c856c0107c617d81ec2e/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

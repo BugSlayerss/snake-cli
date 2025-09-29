@@ -1,0 +1,1768 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
+        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files (x86)\\Sqlite3"
+        - "C:\\MinGW\\bin"
+        - "C:\\MinGW\\bin\\g++.exe"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.2\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2024.2.0.2\\bin"
+        - "C:\\src\\flutter\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "c:\\Users\\Admin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 29-09-2025 22:21:40.
+      Project "F:\\snake-cli\\tests\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> F:\\snake-cli\\tests\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "F:\\snake-cli\\tests\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.80
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        F:/snake-cli/tests/CMakeFiles/4.1.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files (x86)/Intel/iCLS Client/"
+      - "C:/Program Files/Intel/iCLS Client/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/"
+      - "C:/Program Files (x86)/Sqlite3/"
+      - "C:/MinGW/bin/"
+      - "C:/MinGW/bin/g++.exe/"
+      - "C:/Program Files/dotnet/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/"
+      - "C:/src/flutter/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
+        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files (x86)\\Sqlite3"
+        - "C:\\MinGW\\bin"
+        - "C:\\MinGW\\bin\\g++.exe"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.2\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2024.2.0.2\\bin"
+        - "C:\\src\\flutter\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "c:\\Users\\Admin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files (x86)/Intel/iCLS Client/"
+      - "C:/Program Files/Intel/iCLS Client/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/"
+      - "C:/Program Files (x86)/Sqlite3/"
+      - "C:/MinGW/bin/"
+      - "C:/MinGW/bin/g++.exe/"
+      - "C:/Program Files/dotnet/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/"
+      - "C:/src/flutter/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link"
+      - "C:/Python313/Scripts/lld-link.com"
+      - "C:/Python313/Scripts/lld-link.exe"
+      - "C:/Python313/Scripts/lld-link"
+      - "C:/Python313/lld-link.com"
+      - "C:/Python313/lld-link.exe"
+      - "C:/Python313/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link"
+      - "C:/Program Files (x86)/Intel/iCLS Client/lld-link.com"
+      - "C:/Program Files (x86)/Intel/iCLS Client/lld-link.exe"
+      - "C:/Program Files (x86)/Intel/iCLS Client/lld-link"
+      - "C:/Program Files/Intel/iCLS Client/lld-link.com"
+      - "C:/Program Files/Intel/iCLS Client/lld-link.exe"
+      - "C:/Program Files/Intel/iCLS Client/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/lld-link.com"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/lld-link.exe"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/lld-link"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/lld-link.com"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/lld-link.exe"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/lld-link"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/lld-link.com"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/lld-link.exe"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/lld-link"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/lld-link.com"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/lld-link.exe"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/lld-link"
+      - "C:/Program Files (x86)/Sqlite3/lld-link.com"
+      - "C:/Program Files (x86)/Sqlite3/lld-link.exe"
+      - "C:/Program Files (x86)/Sqlite3/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/MinGW/bin/g++.exe/lld-link.com"
+      - "C:/MinGW/bin/g++.exe/lld-link.exe"
+      - "C:/MinGW/bin/g++.exe/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/PostgreSQL/17/bin/lld-link.com"
+      - "C:/Program Files/PostgreSQL/17/bin/lld-link.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/lld-link"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/lld-link"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/lld-link"
+      - "C:/src/flutter/bin/lld-link.com"
+      - "C:/src/flutter/bin/lld-link.exe"
+      - "C:/src/flutter/bin/lld-link"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/lld-link"
+      - "C:/Users/Admin/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Admin/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Admin/AppData/Roaming/npm/lld-link"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/lld-link"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
+        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files (x86)\\Sqlite3"
+        - "C:\\MinGW\\bin"
+        - "C:\\MinGW\\bin\\g++.exe"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.2\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2024.2.0.2\\bin"
+        - "C:\\src\\flutter\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "c:\\Users\\Admin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files (x86)/Intel/iCLS Client/"
+      - "C:/Program Files/Intel/iCLS Client/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/"
+      - "C:/Program Files (x86)/Sqlite3/"
+      - "C:/MinGW/bin/"
+      - "C:/MinGW/bin/g++.exe/"
+      - "C:/Program Files/dotnet/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/"
+      - "C:/src/flutter/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
+        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files (x86)\\Sqlite3"
+        - "C:\\MinGW\\bin"
+        - "C:\\MinGW\\bin\\g++.exe"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.2\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2024.2.0.2\\bin"
+        - "C:\\src\\flutter\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "c:\\Users\\Admin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files (x86)/Intel/iCLS Client/"
+      - "C:/Program Files/Intel/iCLS Client/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/"
+      - "C:/Program Files (x86)/Sqlite3/"
+      - "C:/MinGW/bin/"
+      - "C:/MinGW/bin/g++.exe/"
+      - "C:/Program Files/dotnet/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/"
+      - "C:/src/flutter/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt"
+      - "C:/Python313/Scripts/mt.com"
+      - "C:/Python313/Scripts/mt.exe"
+      - "C:/Python313/Scripts/mt"
+      - "C:/Python313/mt.com"
+      - "C:/Python313/mt.exe"
+      - "C:/Python313/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/mt.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/mt"
+      - "C:/Program Files (x86)/Intel/iCLS Client/mt.com"
+      - "C:/Program Files (x86)/Intel/iCLS Client/mt.exe"
+      - "C:/Program Files (x86)/Intel/iCLS Client/mt"
+      - "C:/Program Files/Intel/iCLS Client/mt.com"
+      - "C:/Program Files/Intel/iCLS Client/mt.exe"
+      - "C:/Program Files/Intel/iCLS Client/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/mt.com"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/mt.exe"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/mt"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/mt.com"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/mt.exe"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/mt"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/mt.com"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/mt.exe"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/mt"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/mt.com"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/mt.exe"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/mt"
+      - "C:/Program Files (x86)/Sqlite3/mt.com"
+      - "C:/Program Files (x86)/Sqlite3/mt.exe"
+      - "C:/Program Files (x86)/Sqlite3/mt"
+      - "C:/MinGW/bin/mt.com"
+      - "C:/MinGW/bin/mt.exe"
+      - "C:/MinGW/bin/mt"
+      - "C:/MinGW/bin/g++.exe/mt.com"
+      - "C:/MinGW/bin/g++.exe/mt.exe"
+      - "C:/MinGW/bin/g++.exe/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/Program Files/PostgreSQL/17/bin/mt.com"
+      - "C:/Program Files/PostgreSQL/17/bin/mt.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/mt.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/mt.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/mt"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/mt.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/mt.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/mt"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/mt.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/mt.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/mt"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/mt.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/mt.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/mt"
+      - "C:/src/flutter/bin/mt.com"
+      - "C:/src/flutter/bin/mt.exe"
+      - "C:/src/flutter/bin/mt"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/mt.com"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/mt.exe"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/mt"
+      - "C:/Users/Admin/AppData/Roaming/npm/mt.com"
+      - "C:/Users/Admin/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/Admin/AppData/Roaming/npm/mt"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/mt.com"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/mt"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
+        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files (x86)\\Sqlite3"
+        - "C:\\MinGW\\bin"
+        - "C:\\MinGW\\bin\\g++.exe"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.2\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2024.2.0.2\\bin"
+        - "C:\\src\\flutter\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "c:\\Users\\Admin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files (x86)/Intel/iCLS Client/"
+      - "C:/Program Files/Intel/iCLS Client/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/"
+      - "C:/Program Files (x86)/Sqlite3/"
+      - "C:/MinGW/bin/"
+      - "C:/MinGW/bin/g++.exe/"
+      - "C:/Program Files/dotnet/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/"
+      - "C:/src/flutter/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
+        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files (x86)\\Sqlite3"
+        - "C:\\MinGW\\bin"
+        - "C:\\MinGW\\bin\\g++.exe"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.2\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2024.2.0.2\\bin"
+        - "C:\\src\\flutter\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "c:\\Users\\Admin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
+        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files (x86)\\Sqlite3"
+        - "C:\\MinGW\\bin"
+        - "C:\\MinGW\\bin\\g++.exe"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.2\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2024.2.0.2\\bin"
+        - "C:\\src\\flutter\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "c:\\Users\\Admin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 29-09-2025 22:21:42.
+      Project "F:\\snake-cli\\tests\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> F:\\snake-cli\\tests\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "F:\\snake-cli\\tests\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.14
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        F:/snake-cli/tests/CMakeFiles/4.1.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files (x86)/Intel/iCLS Client/"
+      - "C:/Program Files/Intel/iCLS Client/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/"
+      - "C:/Program Files (x86)/Sqlite3/"
+      - "C:/MinGW/bin/"
+      - "C:/MinGW/bin/g++.exe/"
+      - "C:/Program Files/dotnet/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/"
+      - "C:/src/flutter/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link"
+      - "C:/Python313/Scripts/lld-link.com"
+      - "C:/Python313/Scripts/lld-link.exe"
+      - "C:/Python313/Scripts/lld-link"
+      - "C:/Python313/lld-link.com"
+      - "C:/Python313/lld-link.exe"
+      - "C:/Python313/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link"
+      - "C:/Program Files (x86)/Intel/iCLS Client/lld-link.com"
+      - "C:/Program Files (x86)/Intel/iCLS Client/lld-link.exe"
+      - "C:/Program Files (x86)/Intel/iCLS Client/lld-link"
+      - "C:/Program Files/Intel/iCLS Client/lld-link.com"
+      - "C:/Program Files/Intel/iCLS Client/lld-link.exe"
+      - "C:/Program Files/Intel/iCLS Client/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/lld-link.com"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/lld-link.exe"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/lld-link"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/lld-link.com"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/lld-link.exe"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/lld-link"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/lld-link.com"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/lld-link.exe"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/lld-link"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/lld-link.com"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/lld-link.exe"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/lld-link"
+      - "C:/Program Files (x86)/Sqlite3/lld-link.com"
+      - "C:/Program Files (x86)/Sqlite3/lld-link.exe"
+      - "C:/Program Files (x86)/Sqlite3/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/MinGW/bin/g++.exe/lld-link.com"
+      - "C:/MinGW/bin/g++.exe/lld-link.exe"
+      - "C:/MinGW/bin/g++.exe/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/PostgreSQL/17/bin/lld-link.com"
+      - "C:/Program Files/PostgreSQL/17/bin/lld-link.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/lld-link"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/lld-link"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/lld-link"
+      - "C:/src/flutter/bin/lld-link.com"
+      - "C:/src/flutter/bin/lld-link.exe"
+      - "C:/src/flutter/bin/lld-link"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/lld-link"
+      - "C:/Users/Admin/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Admin/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Admin/AppData/Roaming/npm/lld-link"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/lld-link"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
+        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files (x86)\\Sqlite3"
+        - "C:\\MinGW\\bin"
+        - "C:\\MinGW\\bin\\g++.exe"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.2\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2024.2.0.2\\bin"
+        - "C:\\src\\flutter\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "c:\\Users\\Admin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files (x86)/Intel/iCLS Client/"
+      - "C:/Program Files/Intel/iCLS Client/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/"
+      - "C:/Program Files (x86)/Sqlite3/"
+      - "C:/MinGW/bin/"
+      - "C:/MinGW/bin/g++.exe/"
+      - "C:/Program Files/dotnet/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/PostgreSQL/17/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/"
+      - "C:/src/flutter/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/snake_tests/bin/"
+      - "C:/Program Files (x86)/snake_tests/sbin/"
+      - "C:/Program Files (x86)/snake_tests/"
+    searched_directories:
+      - "C:/Python313/Scripts/rc.com"
+      - "C:/Python313/Scripts/rc.exe"
+      - "C:/Python313/Scripts/rc"
+      - "C:/Python313/rc.com"
+      - "C:/Python313/rc.exe"
+      - "C:/Python313/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/rc.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/rc"
+      - "C:/Program Files (x86)/Intel/iCLS Client/rc.com"
+      - "C:/Program Files (x86)/Intel/iCLS Client/rc.exe"
+      - "C:/Program Files (x86)/Intel/iCLS Client/rc"
+      - "C:/Program Files/Intel/iCLS Client/rc.com"
+      - "C:/Program Files/Intel/iCLS Client/rc.exe"
+      - "C:/Program Files/Intel/iCLS Client/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/rc.com"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/rc.exe"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL/rc"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/rc.com"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/rc.exe"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/DAL/rc"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/rc.com"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/rc.exe"
+      - "C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT/rc"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/rc.com"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/rc.exe"
+      - "C:/Program Files/Intel/Intel(R) Management Engine Components/IPT/rc"
+      - "C:/Program Files (x86)/Sqlite3/rc.com"
+      - "C:/Program Files (x86)/Sqlite3/rc.exe"
+      - "C:/Program Files (x86)/Sqlite3/rc"
+      - "C:/MinGW/bin/rc.com"
+      - "C:/MinGW/bin/rc.exe"
+      - "C:/MinGW/bin/rc"
+      - "C:/MinGW/bin/g++.exe/rc.com"
+      - "C:/MinGW/bin/g++.exe/rc.exe"
+      - "C:/MinGW/bin/g++.exe/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/Program Files/PostgreSQL/17/bin/rc.com"
+      - "C:/Program Files/PostgreSQL/17/bin/rc.exe"
+      - "C:/Program Files/PostgreSQL/17/bin/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/rc.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/rc.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/rc"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/rc.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/rc.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python312/rc"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/rc.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/rc.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin/rc"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/rc.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/rc.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2024.2.0.2/bin/rc"
+      - "C:/src/flutter/bin/rc.com"
+      - "C:/src/flutter/bin/rc.exe"
+      - "C:/src/flutter/bin/rc"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/rc.com"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/rc.exe"
+      - "C:/Users/Admin/AppData/Local/JetBrains/Toolbox/scripts/rc"
+      - "C:/Users/Admin/AppData/Roaming/npm/rc.com"
+      - "C:/Users/Admin/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/Admin/AppData/Roaming/npm/rc"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/rc.com"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/Admin/AppData/Roaming/Python/Python313/Scripts/rc"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/Admin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/snake_tests/bin/rc.com"
+      - "C:/Program Files (x86)/snake_tests/bin/rc.exe"
+      - "C:/Program Files (x86)/snake_tests/bin/rc"
+      - "C:/Program Files (x86)/snake_tests/sbin/rc.com"
+      - "C:/Program Files (x86)/snake_tests/sbin/rc.exe"
+      - "C:/Program Files (x86)/snake_tests/sbin/rc"
+      - "C:/Program Files (x86)/snake_tests/rc.com"
+      - "C:/Program Files (x86)/snake_tests/rc.exe"
+      - "C:/Program Files (x86)/snake_tests/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Intel\\iCLS Client\\"
+        - "C:\\Program Files\\Intel\\iCLS Client\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL"
+        - "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT"
+        - "C:\\Program Files (x86)\\Sqlite3"
+        - "C:\\MinGW\\bin"
+        - "C:\\MinGW\\bin\\g++.exe"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\PostgreSQL\\17\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.2\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2024.2.0.2\\bin"
+        - "C:\\src\\flutter\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "c:\\Users\\Admin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/snake_tests"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/snake_tests"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-0rcaen"
+      binary: "F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-0rcaen"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-0rcaen'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_b447f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 29-09-2025 22:21:44.
+        Project "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-0rcaen\\cmTC_b447f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b447f.dir\\Debug\\".
+          Creating directory "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-0rcaen\\Debug\\".
+          Creating directory "cmTC_b447f.dir\\Debug\\cmTC_b447f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b447f.dir\\Debug\\cmTC_b447f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b447f.dir\\Debug\\\\" /Fd"cmTC_b447f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b447f.dir\\Debug\\\\" /Fd"cmTC_b447f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-0rcaen\\Debug\\cmTC_b447f.exe" /INCREMENTAL /ILK:"cmTC_b447f.dir\\Debug\\cmTC_b447f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-0rcaen/Debug/cmTC_b447f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-0rcaen/Debug/cmTC_b447f.lib" /MACHINE:X64  /machine:x64 cmTC_b447f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_b447f.vcxproj -> F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-0rcaen\\Debug\\cmTC_b447f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_b447f.dir\\Debug\\cmTC_b447f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b447f.dir\\Debug\\cmTC_b447f.tlog\\cmTC_b447f.lastbuildstate".
+        Done Building Project "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-0rcaen\\cmTC_b447f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.92
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-xnkmcm"
+      binary: "F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-xnkmcm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-xnkmcm'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_85ba5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 29-09-2025 22:21:46.
+        Project "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-xnkmcm\\cmTC_85ba5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_85ba5.dir\\Debug\\".
+          Creating directory "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-xnkmcm\\Debug\\".
+          Creating directory "cmTC_85ba5.dir\\Debug\\cmTC_85ba5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_85ba5.dir\\Debug\\cmTC_85ba5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_85ba5.dir\\Debug\\\\" /Fd"cmTC_85ba5.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_85ba5.dir\\Debug\\\\" /Fd"cmTC_85ba5.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-xnkmcm\\Debug\\cmTC_85ba5.exe" /INCREMENTAL /ILK:"cmTC_85ba5.dir\\Debug\\cmTC_85ba5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-xnkmcm/Debug/cmTC_85ba5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-xnkmcm/Debug/cmTC_85ba5.lib" /MACHINE:X64  /machine:x64 cmTC_85ba5.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_85ba5.vcxproj -> F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-xnkmcm\\Debug\\cmTC_85ba5.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_85ba5.dir\\Debug\\cmTC_85ba5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_85ba5.dir\\Debug\\cmTC_85ba5.tlog\\cmTC_85ba5.lastbuildstate".
+        Done Building Project "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-xnkmcm\\cmTC_85ba5.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.00
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-34li8s"
+      binary: "F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-34li8s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-34li8s'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_298b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 29-09-2025 22:21:52.
+        Project "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-34li8s\\cmTC_298b5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_298b5.dir\\Debug\\".
+          Creating directory "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-34li8s\\Debug\\".
+          Creating directory "cmTC_298b5.dir\\Debug\\cmTC_298b5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_298b5.dir\\Debug\\cmTC_298b5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_298b5.dir\\Debug\\\\" /Fd"cmTC_298b5.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-34li8s\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_298b5.dir\\Debug\\\\" /Fd"cmTC_298b5.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-34li8s\\src.c"
+        F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-34li8s\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-34li8s\\cmTC_298b5.vcxproj]
+        Done Building Project "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-34li8s\\cmTC_298b5.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-34li8s\\cmTC_298b5.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-34li8s\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-34li8s\\cmTC_298b5.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-f4h8ng"
+      binary: "F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-f4h8ng"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-f4h8ng'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_8f8b9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 29-09-2025 22:21:53.
+        Project "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-f4h8ng\\cmTC_8f8b9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8f8b9.dir\\Debug\\".
+          Creating directory "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-f4h8ng\\Debug\\".
+          Creating directory "cmTC_8f8b9.dir\\Debug\\cmTC_8f8b9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8f8b9.dir\\Debug\\cmTC_8f8b9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8f8b9.dir\\Debug\\\\" /Fd"cmTC_8f8b9.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-f4h8ng\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8f8b9.dir\\Debug\\\\" /Fd"cmTC_8f8b9.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-f4h8ng\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-f4h8ng\\Debug\\cmTC_8f8b9.exe" /INCREMENTAL /ILK:"cmTC_8f8b9.dir\\Debug\\cmTC_8f8b9.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-f4h8ng/Debug/cmTC_8f8b9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-f4h8ng/Debug/cmTC_8f8b9.lib" /MACHINE:X64  /machine:x64 cmTC_8f8b9.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-f4h8ng\\cmTC_8f8b9.vcxproj]
+        Done Building Project "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-f4h8ng\\cmTC_8f8b9.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-f4h8ng\\cmTC_8f8b9.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-f4h8ng\\cmTC_8f8b9.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.64
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-3ujpw8"
+      binary: "F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-3ujpw8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-3ujpw8'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_dcee5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 29-09-2025 22:21:54.
+        Project "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-3ujpw8\\cmTC_dcee5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_dcee5.dir\\Debug\\".
+          Creating directory "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-3ujpw8\\Debug\\".
+          Creating directory "cmTC_dcee5.dir\\Debug\\cmTC_dcee5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_dcee5.dir\\Debug\\cmTC_dcee5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_dcee5.dir\\Debug\\\\" /Fd"cmTC_dcee5.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-3ujpw8\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_dcee5.dir\\Debug\\\\" /Fd"cmTC_dcee5.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-3ujpw8\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-3ujpw8\\Debug\\cmTC_dcee5.exe" /INCREMENTAL /ILK:"cmTC_dcee5.dir\\Debug\\cmTC_dcee5.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-3ujpw8/Debug/cmTC_dcee5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"F:/snake-cli/tests/CMakeFiles/CMakeScratch/TryCompile-3ujpw8/Debug/cmTC_dcee5.lib" /MACHINE:X64  /machine:x64 cmTC_dcee5.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-3ujpw8\\cmTC_dcee5.vcxproj]
+        Done Building Project "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-3ujpw8\\cmTC_dcee5.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-3ujpw8\\cmTC_dcee5.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [F:\\snake-cli\\tests\\CMakeFiles\\CMakeScratch\\TryCompile-3ujpw8\\cmTC_dcee5.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.66
+        
+      exitCode: 1
+...
